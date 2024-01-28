@@ -22,7 +22,7 @@ Uruchom program zgodnie z instrukcjami zawartymi w dokumentacji.
 Instrukcja zadania oraz szczegółowy opis wymagań znajdują się w formie PDF pod tym [linkiem](https://github.com/specsxc/program-do-faktur/blob/main/instruction.pdf).
 
 ## 🔧 Wymagania
-Python 3.x
+Python 3.x<br>
 Dostęp do internetu dla korzystania z API NBP.
 ## 🤝 Współpraca i Wkład
 Zachęcamy do współpracy nad projektem. Wszelkie sugestie, zgłoszenia błędów lub propozycje nowych funkcji można przesyłać poprzez system zgłoszeń GitHub.
