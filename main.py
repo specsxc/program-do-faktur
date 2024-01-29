@@ -10,7 +10,8 @@ def faktury_zapis():
         lista_walut = ['Euro', 'Dolar', 'Zloty']
         kwota = int(input("Wprowadź kwotę faktury: "))
         print('Lista walut: ' + ' | '.join(lista_walut))
-        waluta = str(input("Wprowadź walute w jakiej została wystawiona: "))
+        waluta = str(input(
+            "Wprowadź walute w jakiej została wystawiona: ").lower())
         print("Kiedy została wystawiona?")
         rok = int(input('Wprowadź rok: '))
         miesiac = int(input('Wprowadź miesiąc: '))
@@ -48,7 +49,8 @@ def platnosci_zapis():
         lista_walut = ['Euro', 'Dolar', 'Zloty']
         kwota = int(input("Wprowadź kwotę płatności: "))
         print('Lista walut: ' + ' | '.join(lista_walut))
-        waluta = str(input("Wprowadź walute w jakiej została opłacona: "))
+        waluta = str(input(
+            "Wprowadź walute w jakiej została opłacona: ").lower())
         print("Kiedy została opłacona?")
         rok = int(input('Wprowadź rok: '))
         miesiac = int(input('Wprowadź miesiąc: '))
