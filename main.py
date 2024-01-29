@@ -4,6 +4,19 @@ import csv
 # Wprowadzanie danych faktury
 
 
+def witaj():
+    print("Witaj!")
+    decyzja = input("Czy chcesz dodać fakture? (Tak/Nie): ").lower()
+    if decyzja == 'tak':
+        faktury_zapis()
+    else:
+        decyzja2 = input("Czy chcesz dodać płatność? (Tak/Nie): ").lower()
+        if decyzja2 == 'tak':
+            platnosci_zapis()
+        else:
+            exit()
+
+
 def faktury_zapis():
     id_counter = 0
     while True:
@@ -78,5 +91,4 @@ def platnosci_zapis():
             break
 
 
-faktury_zapis()
-platnosci_zapis()
+witaj()
