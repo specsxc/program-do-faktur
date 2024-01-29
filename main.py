@@ -1,5 +1,6 @@
 from datetime import date
 import csv
+import requests
 
 # Wprowadzanie danych faktury
 
@@ -91,4 +92,16 @@ def platnosci_zapis():
             break
 
 
+def czyt_platnosc():
+
+    with open('platnosci.csv') as platnosci:
+        with open('no_header.csv', 'w') as platnosci2:
+            platnosci2.writelines(platnosci2.readlines()[1:])
+    request = requests.get(
+        "http://api.nbp.pl/api/exchangerates/rates/a/usd/{data_platnosci}/"
+    )
+    print(request)
+
+
+czyt_platnosc()
 witaj()
