@@ -31,4 +31,4 @@ Zachęcamy do współpracy nad projektem. Wszelkie sugestie, zgłoszenia błęd�
 Projekt jest dostępny pod [wstaw odpowiednią licencję] licencją. Szczegóły znajdują się w pliku LICENCJA.
 
 ## 👥 Autorzy
-[Piotr 51344]
+[specsxc]
